@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: burlywood;
+  overflow: hidden;
+}
+
+ul {
+  list-style: none;
+  width: 100%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 50%;
+}
+
+.start {
+  background-color: green;
+  font-size: 20px;
+  color: black;
+  height: 50px;
+  width: 100px;
+}
+
+.reset {
+  background-color: #3a3aaf;
+  font-size: 20px;
+  color: black;
+  height: 50px;
+  width: 100px;
+}
+
+.stop {
+  background-color: red;
+  font-size: 20px;
+  color: black;
+  height: 50px;
+  width: 100px;
+}
+
+.toptext2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 37%;
+  left: 55%;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.toptext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 37%;
+  left: 52%;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.toptext3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 37%;
+  left: 49%;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.toptext4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 37%;
+  left: 46%;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+button {
+  font-size: 35px;
+  font-family: 'Courier New', Courier, monospace;
+  float: left;
+  margin: 1%;
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+}
+
+button a {
+  text-decoration: none;
+  color: #A40D08;
+}
+/*# sourceMappingURL=style.css.map */
